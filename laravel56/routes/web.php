@@ -14,3 +14,9 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+
+//代理后台
+// Route::group(['prefix'=>'admin','namespace'=>'Admin'],function(){
+    // Route::get('/index','Admin\AdminController@index');
+// });

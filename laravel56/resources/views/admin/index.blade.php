@@ -12,21 +12,21 @@
 <!-- <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700" rel="stylesheet"> -->
 
 <!-- Bootstrap Core CSS -->
-<link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link href="{{asset('admin/vendor/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
 <!-- Morris Charts CSS -->
-<link href="../vendor/morrisjs/morris.css" rel="stylesheet">
+<link href="{{asset('admin/vendor/morrisjs/morris.css')}}" rel="stylesheet">
 <!-- Custom CSS -->
-<link href="../css/adminnine.css" rel="stylesheet">
+<link href="{{asset('admin/css/adminnine.css')}}" rel="stylesheet">
 
 <!-- Custom Fonts -->
-<link href="../vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link href="{{asset('admin/vendor/font-awesome/css/font-awesome.min.css')}}" rel="stylesheet" type="text/css">
 
 
 </head>
 <!-- <a href="aboutus.html">Click here!</a> -->
 <body>
 <!-- loader 刷新层-->
-<div class="loader"><h1 class="loadingtext">喜帖吧商户端</h1><p>Welcome to use...</p><br><img src="../img/loader2.gif" alt=""> </div>
+<div class="loader"><h1 class="loadingtext">喜帖吧商户端</h1><p>Welcome to use...</p><br><img src="{{asset('admin/img/loader2.gif')}}" alt=""> </div>
 <!-- loader ends -->        
     
 <div id="wrapper">
@@ -146,37 +146,12 @@
  -->    
 
     <div class="row">
-        <div class="col-lg-3 col-md-4 col-sm-6">
-            <div class="panel panel-default userlist">
-              <div class="panel-body text-center">
-                <div class="product_item">
-                  <img src="../img/product3.jpg" alt="" class="productpic">
-                  <h3 class="username">模版1</h3>
-                  <p>模版1模版1模版1模版1模版1模版1</p>
-                </div>
-              </div>
-              <div class="panel-footer text-center"> <a href="" class="btn btn-primary">选中</a><a href="" class="btn btn-default">预览</a>  </div>
-            </div>
-      </div>
       <!-- /.col-lg-3 col-md-4 -->
         <div class="col-lg-3 col-md-4 col-sm-6">
             <div class="panel panel-default userlist">
               <div class="panel-body text-center">
                 <div class="product_item">
-                  <img src="../img/product3.jpg" alt="" class="productpic">
-                  <h3 class="username">模版2</h3>
-                  <p>模版模版模版模版模版模版模版</p>
-                </div>
-              </div>
-              <div class="panel-footer text-center"> <a href="" class="btn btn-primary">选中</a><a href="" class="btn btn-default">预览</a>  </div>
-            </div>
-        </div>
-      <!-- /.col-lg-3 col-md-4 -->
-        <div class="col-lg-3 col-md-4 col-sm-6">
-            <div class="panel panel-default userlist">
-              <div class="panel-body text-center">
-                <div class="product_item">
-                  <img src="../img/product3.jpg" alt="" class="productpic">
+                  <img src="{{asset('admin/img/product3.jpg')}}" alt="" class="productpic">
                   <h3 class="username">模版3</h3>
                   <p>模版3模版3模版3模版3模版3模版3模版3</p>
                 </div>
@@ -204,11 +179,11 @@
 
     
 <!-- jQuery --> 
-<script src="../vendor/jquery/jquery.min.js"></script> 
+<script src="{{asset('admin/vendor/jquery/jquery.min.js')}}"></script> 
 <!-- Bootstrap Core JavaScript --> 
-<script src="../vendor/bootstrap/js/bootstrap.min.js"></script> 
+<script src="{{asset('admin/vendor/bootstrap/js/bootstrap.min.js')}}"></script> 
 <!-- Custom Theme JavaScript --> 
-<script src="../js/adminnine.js"></script> 
+<script src="{{asset('admin/js/adminnine.js')}}"></script> 
 
 </body>
 </html>
